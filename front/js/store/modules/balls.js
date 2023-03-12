@@ -10,7 +10,6 @@ export const balls = {
   actions: {
       addBall({ commit }, ball) {
           commit('addBall', ball);
-          return ball
       }
   },
   getters: {}
