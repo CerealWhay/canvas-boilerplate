@@ -1,3 +1,6 @@
 import app from './views/app.js'
+import store from "./store";
 
-Vue.createApp(app).mount('#app')
+const appInstance = Vue.createApp(app)
+appInstance.use(store)
+appInstance.mount('#app')
