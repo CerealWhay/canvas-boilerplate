@@ -1,4 +1,4 @@
-import Canvas from "../models/Canvas.js";
+import Canvas from "../../models/Canvas.js";
 
 
 export class CollisionController {

@@ -4,6 +4,7 @@ export class Ball extends CanvasObject {
 
     constructor() {
         super();
+        console.log(this)
     }
 
     draw() {

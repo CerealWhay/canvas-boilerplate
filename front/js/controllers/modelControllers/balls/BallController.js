@@ -1,5 +1,5 @@
-import {Ball} from "../../models/canvas-models/Ball.js";
-import store from "../../store";
+import {Ball} from "../../../models/canvas-models/Ball.js";
+import store from "../../../store";
 
 export class BallController {
 

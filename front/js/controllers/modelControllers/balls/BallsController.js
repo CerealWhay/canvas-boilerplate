@@ -1,6 +1,6 @@
 import {BallController} from "./BallController.js";
 
-export class BallsController {
+class BallsController {
 
     constructor() {
         this.balls = []
@@ -21,3 +21,5 @@ export class BallsController {
     }
 
 }
+
+export default new BallsController()

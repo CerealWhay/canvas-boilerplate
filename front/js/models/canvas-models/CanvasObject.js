@@ -5,6 +5,7 @@ export class CanvasObject {
     constructor() {
         this.canvas = Canvas;
         this.ctx = this.canvas.getCtx();
+        console.log(this)
     }
 
     setState(state) {
